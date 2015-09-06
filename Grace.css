@@ -1,0 +1,112 @@
+
+body { background-color: #FFFFFF;  
+       color: #666666; 
+       font-family: Verdana, Arial, sans-serif; 
+}
+
+h1 { background-color: #000033;  
+     background-position: right; 
+     background-repeat: no-repeat; 
+     padding-left: 20px; 
+     height: 72px; 
+     color: #FFFFFF; 
+     font-family: Georgia, serif; 
+     line-height: 200%; 
+     margin-bottom: 0; 
+}
+
+h2 { color: #3399CC; 
+     font-family: Georgia, serif; 
+}
+
+h3 { color: #000033; 
+}
+
+dt { color: #000033; 
+}
+
+.resort { color: #000033; 
+          font-size: 1.2em; 
+}
+
+#content { background-color: #FFFFFF; 
+           margin-left: 160px; 
+           padding-top: 1px; 
+           padding-left: 20px; 
+           padding-right: 20px; 
+}
+
+#content img { float: left; 
+               padding-right: 20px;
+}
+
+.clear { clear: left; 
+}
+
+#content ul { list-style-position: inside; 
+}
+
+#nav { font-weight: bold; 
+       float: left;
+       width: 160px; 
+       padding-top: 20px; 
+       padding-right: 5px; 
+       padding-bottom: 5px; 
+       padding-left: 20px; 
+}
+
+#nav a { text-decoration: none; 
+}
+
+#nav a:link { color: #000033; 
+}
+
+#nav a:visited { color: #344873;
+}
+
+#nav a:hover { color: #FFFFFF; 
+}
+
+
+#nav ul { list-style-type: none; 
+          margin: 0; 
+          padding-left: 0; 
+}
+
+
+#footer { font-size: .70em; 
+          font-style: italic; 
+          text-align: center; 
+          padding: 10px; 
+}
+
+
+#wrapper { background-color: #90C7E3; 
+           min-width: 960px; 
+           -webkit-box-shadow: 5px 5px 5px #828282; 
+           -moz-box-shadow: 5px 5px 5px #828282; 
+           box-shadow: 5px 5px 5px #828282; 
+           width:80%; 
+           margin-left: auto; 
+           margin-right: auto; 
+}
+
+
+table { border: 1px solid #3399CC; 
+        border-spacing: 0; 
+        margin: auto; 
+        width: 600px; 
+}
+
+td, th { border: 1px solid #3399CC; 
+         padding: 5px; 
+}
+
+td { text-align: center; 
+}
+
+.text { text-align: left; 
+}
+
+tr:nth-of-type(even) { background-color: #F5FAFC; 
+}
