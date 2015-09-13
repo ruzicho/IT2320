@@ -1,28 +1,32 @@
-
 body { background-color: #FFFFFF;  
        color: #666666; 
        font-family: Verdana, Arial, sans-serif; 
 }
 
-h1 { background-color: #000033;  
-     background-position: right; 
-     background-repeat: no-repeat; 
-     padding-left: 20px; 
-     height: 72px; 
-     color: #FFFFFF; 
+h1 { padding-left: 200px; 
+     padding-top: 20px; 
+     height: 80px;
+     -moz-border-radius: 20px;
+     webkit-border-radius: 20px
+     position relatived;
+     color: #006633;
+     background-color: #009999; 
      font-family: Georgia, serif; 
-     line-height: 200%; 
-     margin-bottom: 0; 
+     line-height: 250%; 
+     margin-bottom: 0;
+ 
+}
+
+#date { text-align: right; 
+        padding-right: 10px;
 }
 
 h2 { color: #3399CC; 
-     font-family: Georgia, serif; 
+     font-family: Georgia, serif;
 }
 
-h3 { color: #000033; 
-}
-
-dt { color: #000033; 
+h3 { color: #000033;
+	text-align: center;
 }
 
 .resort { color: #000033; 
