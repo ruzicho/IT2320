@@ -1,0 +1,15 @@
+.vacation
+{
+	width : 400px;
+	height : 100px;
+	padding : 60px;
+	margin : 60px;
+	font-size : 20px;
+	font-family: "Times New Roman";
+	text-align : center;
+	border : 10px solid black;
+	display : inline-block;
+	background-color : blue;
+	text-shadow : 1px 1px yellow;
+	border-radius : 80px
+}
