@@ -1,0 +1,39 @@
+@media screen and (max-width: 320px)
+{
+	.content .text-label { display: block; }
+	.content .text-input { width: 100px;   }
+	.wrapper .text-label { display: block; }
+	.wrapper .text-input { width: 100px;   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px)
+{
+	.content .text-label { display: block; }
+	.content .text-input { width: 200px;   }
+	.wrapper .text-label { display: block; }
+	.wrapper .text-input { width: 100px;   }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px)
+{
+	.content .text-label { display: inline-block; }
+	.content .text-input { width: 300px;          }
+	.wrapper .text-label { display: block; }
+	.wrapper .text-input { width: 100px;   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+	.content .text-label { display: inline-block; }
+	.content .text-input { width: 400px;          }
+	.wrapper .text-label { display: block; }
+	.wrapper .text-input { width: 100px;   }
+}
+
+@media screen and (min-width: 1025px)
+{
+	.content .text-label { display: inline-block; }
+	.content .text-input { width: 500px;          }
+	.wrapper .text-label { display: block; }
+	.wrapper .text-input { width: 100px;   }
+}
