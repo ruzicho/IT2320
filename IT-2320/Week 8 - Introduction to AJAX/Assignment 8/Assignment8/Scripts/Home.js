@@ -10,7 +10,7 @@ $(document).ready(function ()
 
         url: "Home/GetPlayerInformation",
         success: function (response)
-              { $(".output").innerHTML = response;},
+              { $(".output").innerHTML = PlayerName;},
         data: { "PlayerNumber": $(".player-number-textbox").val() },
     });
 
