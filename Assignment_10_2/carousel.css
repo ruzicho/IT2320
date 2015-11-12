@@ -1,0 +1,98 @@
+.carousel-outer
+{
+	width: 100%;
+	postion: relative;
+	overflow: hidden;
+}
+
+.left-transparent, .right-transparent, .carousel-inner
+{
+	float: left;
+}
+
+.left-transparent
+{
+	left: 0px;
+	height: 200px;
+	z-index: 50;
+}
+
+.right-transparent
+{
+	right: 0px;
+	height: 200px;
+	z-index: 50;
+}
+
+.left-link
+{
+	position: absolute;
+	left: 0px;
+	z-index: 100;
+}
+
+.right-link
+{
+	position: absolute;
+	right: 0px;
+	z-index: 100;
+}
+
+.left-transparent, .right-transparent
+{
+	width: 20%;
+	position: absolute;
+	opacity: 0.4;
+	background-color: black;
+}
+
+.wrapper
+{
+	position: absolute;
+	width: 2184px;
+}
+
+.wrapper .carousel-item
+{
+	float: left;
+	width: 500px;
+
+}
+
+.carousel-inner
+{
+	overflow: visible;
+	height: 970px;
+	margin-left: 20%;
+	position: relative;
+}
+
+.scroll-buttons
+{
+	position: absolute;
+	bottom: 0px;
+	margin: 0px 10px;
+	list-style: none;
+}
+
+.scroll-buttons .scroll-button
+{
+	float: left;
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	text-align: center;
+	margin: 0px 20px;
+}
+
+.scroll-button .scroll-button:hover
+{
+	cursor: pointer;
+	background-color: #FF0000;
+	color: #000000;
+}
+
+.activeLink
+{
+	background-color: #660066;
+}
