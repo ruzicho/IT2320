@@ -1,0 +1,26 @@
+﻿<html>
+
+    <head>
+        <link href="~/Styles/Home.css" rel="stylesheet" />
+        <title>Introduction to AngularJS</title>
+    </head>
+
+    <body>
+
+        <script src="~/Scripts/Angular.js"></script>
+        <script src="~/Scripts/Home.js"></script>
+        
+        <div class="home">
+
+            <div ng-app="" ng-controller="GetBattingOrder">
+
+                <div ng-repeat="item in viewOrder.list | orderBy:'FirstName'">{{item.FirstName + " " + item.LastName | lowercase}}</div>
+
+            </div>
+
+
+            </div>
+
+    </body>
+
+</html>
