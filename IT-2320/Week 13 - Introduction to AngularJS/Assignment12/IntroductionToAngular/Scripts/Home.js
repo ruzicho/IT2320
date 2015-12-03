@@ -1,16 +1,17 @@
-﻿function GetBattingOrder($scope)
-{
-    $scope.viewOrder.list = [
+﻿ function myController($scope) {
 
-   { FirstName: "Kenny", LastName: "Lofton" },
-   { FirstName: "Omar", LastName: "Vizquel" },
-   { FirstName: "Carlos", LastName: "Baerga" },
-   { FirstName: "Albert", LastName: "Belle" },
-   { FirstName: "Eddie", LastName: "Murray" },
-   { FirstName: "Jim", LastName: "Thome" },
-   { FirstName: "Manny", LastName: "Ramirez" },
-   { FirstName: "Paul", LastName: "Sorrento" },
-   { FirstName: "Sandy", LastName: "Alomar" }
+    $scope.list = [
+
+   { FirstName: 'Kenny', LastName: 'Lofton' },
+   { FirstName: 'Omar', LastName: 'Vizquel' },
+   { FirstName: 'Carlos', LastName: 'Baerga' },
+   { FirstName: 'Albert', LastName: 'Belle' },
+   { FirstName: 'Eddie', LastName: 'Murray' },
+   { FirstName: 'Jim', LastName: 'Thome' },
+   { FirstName: 'Manny', LastName: 'Ramirez' },
+   { FirstName: 'Paul', LastName: 'Sorrento' },
+   { FirstName: 'Sandy', LastName: 'Alomar' }
 
     ];
-}
+
+    };

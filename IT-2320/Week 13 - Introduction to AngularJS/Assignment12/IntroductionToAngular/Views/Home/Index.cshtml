@@ -2,25 +2,21 @@
 
     <head>
         <link href="~/Styles/Home.css" rel="stylesheet" />
+        <script src="~/Scripts/Angular.js"></script>
+        <script src="~/Scripts/Home.js"></script>
         <title>Introduction to AngularJS</title>
     </head>
 
     <body>
-
-        <script src="~/Scripts/Angular.js"></script>
-        <script src="~/Scripts/Home.js"></script>
         
         <div class="home">
-
-            <div ng-app="" ng-controller="GetBattingOrder">
-
-                <div ng-repeat="item in viewOrder.list | orderBy:'FirstName'">{{item.FirstName + " " + item.LastName | lowercase}}</div>
-
+            <h1>1995 Cleveland Indians </h1>
+            <div ng-app="" ng-controller="myController">
+              
+                   <div ng-repeat="BattingOrder in list">{{ BattingOrder.FirstName + " " + BattingOrder.LastName}}</div>
+                            
             </div>
-
-
-            </div>
-
+       </div>
     </body>
 
 </html>
