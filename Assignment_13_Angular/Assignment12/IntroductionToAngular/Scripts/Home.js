@@ -1,4 +1,17 @@
-﻿ function myController($scope) {
+﻿var Home = {}
+ 
+function myController($scope) {
+    $.get("Home/GetBattingOrder", function (data, status)
+    {
+        $scope.list = result;
+            return (result);
+    }
+
+    )
+}
+
+
+function myController($scope) {
 
     $scope.list = [
 
@@ -14,4 +27,4 @@
 
     ];
 
-    };
+}
